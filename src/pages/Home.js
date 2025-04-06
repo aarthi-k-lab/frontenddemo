@@ -5,7 +5,7 @@ import { Container, Typography } from '@mui/material';
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
-  const city = 'Bangalore'; // can be dynamic later
+  const city = 'Chennai'; // can be dynamic later
 
   useEffect(() => {
     const fetchMovies = async () => {
